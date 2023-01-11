@@ -8,11 +8,11 @@ squadra = {
     "operai": [
         {"nome": "andrea", "cognome": "prestini"},
         {"nome": "eleonora", "cognome": "favagrossa"},
-        {"nome": "filippo", "cognome": "braccagnini"},
+        {"nome": "filippo", "cognome": "braccagni"},
         {"nome": "aldo", "cognome": "tanzini"}],
     "amministrazione": [
         {"nome": "elonora", "cognome": "favagrossa"},
-        {"nome": "federica", "cognome": "braccagnini"}
+        {"nome": "federica", "cognome": "braccagni"}
     ]
 }
 
