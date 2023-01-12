@@ -49,23 +49,16 @@ def possible(y, x, n):
                 return False
     return True
 
-# |%%--%%| <o5U2s5NzDt|INJQnVJSU2>
-"""°°°
+"""
 Verifichiamo se possiamo inserire N nella posizione centrale (indice parte da ZERO)
-°°°"""
-# |%%--%%| <INJQnVJSU2|6aa5PPPgy7>
+"""
+
 
 possible(4, 4, 3)
 
-# |%%--%%| <6aa5PPPgy7|N5cXbJjMr9>
-
 possible(4, 4, 6)
 
-# |%%--%%| <N5cXbJjMr9|hhPqQsmGzZ>
-
 possible(4, 4, 5)
-
-# |%%--%%| <hhPqQsmGzZ|edFNEh4Lkd>
 
 def solve():
     global grid
@@ -80,10 +73,6 @@ def solve():
                 return
     print(np.matrix(grid))
 
-# |%%--%%| <edFNEh4Lkd|OPetehAD9T>
-
 solve()
 
-# |%%--%%| <OPetehAD9T|AHptEq7zjk>
-
-
+print("fine procedura...")
