@@ -11,27 +11,16 @@ grid = [
     [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ]
 
-# |%%--%%| <b3TgJUhR8w|ANKd3ex4To>
 
 print(grid)
 
-# |%%--%%| <ANKd3ex4To|BAO69wVIBf>
-
-
-
-# |%%--%%| <BAO69wVIBf|mVtFSyeKNZ>
 
 print(np.matrix(grid))
 
-# |%%--%%| <mVtFSyeKNZ|C5CaEumdM6>
-"""°°°
-## Funzione analizza possibilità inserimento numero nella posizione aperta
-°°°"""
-# |%%--%%| <C5CaEumdM6|xGNv33EtL9>
-"""°°°
+"""
+Funzione analizza possibilità inserimento numero nella posizione aperta
 X = colonna Y = riga N = numero da verificare
-°°°"""
-# |%%--%%| <xGNv33EtL9|o5U2s5NzDt>
+"""
 
 def possible(y, x, n):
     global grid
@@ -52,7 +41,6 @@ def possible(y, x, n):
 """
 Verifichiamo se possiamo inserire N nella posizione centrale (indice parte da ZERO)
 """
-
 
 possible(4, 4, 3)
 
