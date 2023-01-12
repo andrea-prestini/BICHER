@@ -25,5 +25,5 @@ def eseguito(value: int) -> bool:
     print("Fine procedura...")
 
 eseguito(10)
-
-    
+print("-" * 50)
+eseguito(-10)
