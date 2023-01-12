@@ -20,12 +20,13 @@ squadra = {
 print("Stampo squadra Operai")
 for val in squadra["operai"]:
     print(f'''nome: {val["nome"]}
-cognome: {val["cognome"]}
-          ''')
+cognome: {val["cognome"]} ''')
+    print("-" * 50)
     time.sleep(1)
 
 print("Stampo squadra amministrazione")
 for val in squadra["amministrazione"]:
     print(f'''nome: {val["nome"]}
 cognome: {val["cognome"]}''')
+    print("-" * 50)
     time.sleep(1)
