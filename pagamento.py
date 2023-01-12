@@ -1,21 +1,21 @@
 import time
 
 
-def accettato(value: int) -> bool:
-    accettato = value > 0
+def pagamento_accettato(value: int) -> bool:
+    pagamento_accettato = value > 0
 
     print("Hai richiesto un pagamento di", value)
     time.sleep(3)
-    if accettato:
-        print("Pagamento accettato...")
+    if pagamento_accettato:
+        print("Pagamento accettato..")
     else:
         print("Pagamento NON accettato, valore errato...")
     
-    return accettato
+    return pagamento_accettato
 
 
-def eseguito(value: int) -> bool:
-    eseguito = accettato(value)
+def pagamento_eseguito(value: int) -> bool:
+    eseguito = pagamento_accettato(value)
     time.sleep(2)
     if eseguito:
         print("Pagemento ESEGUITO!")
@@ -24,6 +24,6 @@ def eseguito(value: int) -> bool:
     
     print("Fine procedura...")
 
-eseguito(10)
+pagamento_eseguito(10)
 print("-" * 50)
-eseguito(-10)
+pagamento_eseguito(-10)
