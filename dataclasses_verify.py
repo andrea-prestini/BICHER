@@ -20,7 +20,7 @@ class Operaio:
 
 uno = Operaio(101, "andrea", "prestini", "esine")
 due = Operaio(102, "mario", "mometto", "gambara")
-tre = Operaio(103, "eleonora", "favagrossa", "leno")
+tre = Operaio(103, "gianfranco", "favagrossa", "leno")
 print("Stampo elenco id squadra:")
 for val in elenco:
     print(val)
